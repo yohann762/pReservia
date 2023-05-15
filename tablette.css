@@ -1,0 +1,46 @@
+@media screen and (min-width: 992px){
+    #section{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #main{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+    .img{
+        max-width: 25%;
+        height: auto;
+    }
+    @media only screen and (max-width: 678px) {
+        #body {
+        display: block ;
+        width:90%;
+        }
+        #header{
+            display: block;
+        }
+        #main{
+            display: block;
+        }
+        #footer{
+            display: block;
+        }
+        .rowone{
+            display: block;
+            flex-direction: column;
+            width: 90%;
+        }
+        .rowtwo{
+            display: block;
+        }
+        .rowthree{
+            display: block;
+        }
+    }
